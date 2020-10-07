@@ -8,7 +8,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hi re:Invent Folks, I'm running on a %s instance!", runtime.GOARCH)
+	fmt.Fprintf(w, "Hi re:Arm Dev Summit Folks, I'm running on a %s instance!", runtime.GOARCH)
 }
 
 func main() {
